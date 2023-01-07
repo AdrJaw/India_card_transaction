@@ -1,0 +1,9 @@
+create table public.card_transaction
+(city varchar(50),
+ country varchar(20),
+ data varchar(20),
+ card_type varchar(20),
+ exp_type varchar(20),
+ gender char(1),
+ amount integer
+)
